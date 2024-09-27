@@ -4,10 +4,3 @@ let a = function Hello()
 }
 
 a();
-
-let b = (value)=>{
-    console.log("Bye");
-    console.log(value);
-}
-
-b("something");
