@@ -20,3 +20,20 @@ let listAllTasks = (task) => {
 }
 
 listAllTasks();
+
+//d.
+let deleteTask = (task) => {
+    let index = Tasks.indexOf(task);
+    if(index > -1)
+    {
+        Tasks.splice(index, 1);
+        console.log(task + " has been deleted from my Tasks");
+    }
+    else{
+        console.log(task + " not found in array");
+    }
+    return Tasks.length;
+}
+
+deleteTask("Jump");
+listAllTasks();
