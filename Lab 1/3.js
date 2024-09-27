@@ -7,4 +7,16 @@ let addTask = (task)=>{
     return Tasks.length;
 }
 
-addTask("Test");
+addTask("Walk");
+addTask("Run");
+addTask("Jump");
+
+//c.
+let listAllTasks = (task) => {
+    
+    Tasks.forEach(task=>{
+        console.log(task);
+    })
+}
+
+listAllTasks();
